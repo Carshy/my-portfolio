@@ -1,10 +1,9 @@
 import React from 'react';
 import './Navigation.css';
 
-const Navigation = () => {
-  return (
-    <div>
-      <nav className="nav-section">
+const Navigation = () => (
+  <div>
+    <nav className="nav-section">
       <a href="/" className="bookstore-logo">
         Musoko Collins
       </a>
@@ -26,8 +25,7 @@ const Navigation = () => {
         </li>
       </ul>
     </nav>
-    </div>
-  )
-}
+  </div>
+);
 
-export default Navigation
+export default Navigation;
