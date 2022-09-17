@@ -10,7 +10,7 @@ const Navigation = () => (
       <ul className="nav-group">
         <li>
           <a href="/" className="nav-items">
-            My Portfolio
+            Portfolio
           </a>
         </li>
         <li>

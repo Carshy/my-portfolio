@@ -7,10 +7,6 @@
   height: 80px;
   box-shadow: 10px 5px 5px rgba(227, 226, 226, 0.634);
   /* box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0; */
-  margin-bottom: 3%;
-  position: fixed;
-  left: 0px;
-  top: 0px;
   background: #3e3c3c;
 }
 
@@ -36,8 +32,8 @@
 
 .bookstore-logo {
   text-decoration: none;
-  color: #45a3ff;
+  color: #f55800;
   font-weight: bold;
-  padding-left: 4%;
+  padding-left: 7%;
   font-size: 2.5rem;
 }

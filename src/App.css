@@ -5,5 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
