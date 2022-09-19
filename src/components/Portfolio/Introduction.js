@@ -30,9 +30,9 @@ function Introduction() {
         <h1>
           Hey There.
           <br />
-          I am Collins
+          I&apos;m Collins
         </h1>
-        <h2>I am a Software Developer</h2>
+        <h2>I&apos;m a Software Developer</h2>
         <p>
           I can help you build a product, feature
           <br />
