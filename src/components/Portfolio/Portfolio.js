@@ -1,10 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
+import animalia from '../../assets/animalia.PNG';
 
 const Portfolio = () => (
   <div className="portfolio-section">
-    <div>
-      <img src="/" alt="Project1" />
+    <div className="project-image">
+      <img src={animalia} alt="Project1" />
     </div>
     <div className="project-details">
       <h1>e-shop</h1>
@@ -15,7 +16,7 @@ const Portfolio = () => (
         the cart. The user can also click on checkout from the cart
         and pay by entering his/her credit card number.
       </p>
-      <div>
+      <div className="project-stacks">
         <p>React</p>
         <p>Redux</p>
         <p>JavaScript</p>

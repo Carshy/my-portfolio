@@ -6,7 +6,8 @@
     padding: 4rem;
     gap: 6rem;
     margin-bottom: 5%;
-    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 12%);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
     background: #fff;
 }
 
@@ -14,4 +15,44 @@
     transition: all 0.4s;
     box-shadow: 15px 15px 35px 15px rgba(0, 0, 0, 12%);
     cursor: pointer;
+}
+
+.project-image {
+    border: 4px solid #e5e5e5;
+    /* padding: 12px; */
+    border-radius: 10px;
+}
+
+.project-image img {
+    width: 50rem;
+    height: 30rem;
+    display: block;
+    border-radius: 10px;   
+}
+
+.project-details h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.project-details p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 6%;
+}
+
+.project-stacks {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+}
+
+.project-stacks p {
+    background: #e5e5e5;
+    backdrop-filter: blur(10px);
+    padding: 8px 14px 8px 14px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }
