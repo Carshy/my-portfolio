@@ -1,30 +1,33 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Portfolio.css';
-import animalia from '../../assets/animalia.PNG';
 
-const Portfolio = () => (
+const Portfolio = ({
+  img, title, description, language, see,
+}) => (
   <div className="portfolio-section">
     <div className="project-image">
-      <img src={animalia} alt="Project1" />
+      <img src={img} alt={title} />
     </div>
     <div className="project-details">
-      <h1>e-shop</h1>
-      <p>
-        This project is based on an eCommerce website built
-        with React. The user can add items to the cart, increase
-        or decrease the number of items on the cart, or even empty
-        the cart. The user can also click on checkout from the cart
-        and pay by entering his/her credit card number.
-      </p>
+      <h1 className="title">{title}</h1>
+      <p className="description">{description}</p>
       <div className="project-stacks">
-        <p>React</p>
-        <p>Redux</p>
-        <p>JavaScript</p>
+        <p className="languages">{language}</p>
+        <p className="languages">{language}</p>
+        <p className="languages">{language}</p>
       </div>
-      <button type="button">See Live</button>
-      <button type="button">Source</button>
+      <button className="see" type="button">{see}</button>
     </div>
   </div>
 );
+
+Portfolio.propTypes = {
+  img: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  language: PropTypes.string,
+  see: PropTypes.string,
+}.isRequired;
 
 export default Portfolio;
