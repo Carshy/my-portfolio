@@ -1,12 +1,18 @@
 import './App.css';
 import Navigation from './components/header/Navigation';
+import Introduction from './components/Portfolio/Introduction';
+import { ProjectProvider } from './components/Portfolio/ProjectListContext';
+import Portfolios from './components/Portfolio/Portfolios';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <h1>Welcome to react collins!</h1>
-    </div>
+    <ProjectProvider>
+      <div className="App">
+        <Navigation />
+        <Introduction />
+        <Portfolios />
+      </div>
+    </ProjectProvider>
   );
 }
 
